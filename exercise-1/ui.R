@@ -26,9 +26,9 @@ shinyUI(navbarPage(theme = shinytheme("sandstone"),
                            )
                          ),
                          tags$br(),
-                         HTML("<strong>Wow, I'm blown away!</strong>"),
+                         HTML("<strong>Wow, this is so cool!</strong>"),
                          tags$div(class = "sidebar",
-                                  tags$blockquote("I'm a floating blockquote!"))
+                                  tags$blockquote("floating blockquote!"))
                        ),
                        
                        # Main panel: display plotly map
